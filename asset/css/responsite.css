@@ -56,6 +56,9 @@
             flex-wrap: wrap-reverse;
             overflow-x: scroll;
         }
+        .heard__notify::-webkit-scrollbar {
+            width: 0;
+        }
         .grid {
             width: 1600px;
             max-width: 100%;
